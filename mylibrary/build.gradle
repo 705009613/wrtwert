@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.705009613'
 
 android {
     compileSdkVersion 26
@@ -45,6 +48,11 @@ android {
     }
 
     makeJar.dependsOn(build)
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
