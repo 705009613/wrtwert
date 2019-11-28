@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_reason"
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_below="@+id/include9"
+                android:layout_margin="30px"
+                android:gravity="top"
+                android:hint="请输入未通过的原因"
+                android:padding="20px"
+                android:textSize="28px"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_below="@+id/include9"
+                android:layout_margin="30px"
+                android:gravity="top"
+                android:hint="请输入未通过的原因"
+                android:padding="20px"
+                android:textSize="28px"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_below="@+id/include9"
+                android:layout_margin="30px"
+                android:gravity="top"
+                android:hint="请输入未通过的原因"
+                android:padding="20px"
+                android:textSize="28px"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
